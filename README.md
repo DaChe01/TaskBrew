@@ -1,4 +1,4 @@
-# SPCL Task Manager
+# TheBrewingTerminal Task Manager
 
 A full-stack task manager with authentication, priorities, due-date awareness and **priority-based email reminders**. Built with React, Express and PostgreSQL.
 

@@ -1,8 +1,40 @@
 /* ==========================================================================
-   SPCL Task Manager: one stylesheet.
+   TheBrewingTerminal Task Manager: one stylesheet.
    Sections: tokens, base, shared form controls, buttons, home, auth,
    dashboard, task list, states, toasts, motion preferences.
    ========================================================================== */
+
+
+   .home-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .brand-label {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: #030201;
+    margin-bottom: 0.8rem;
+  }
+  
+  .home-title {
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    color: #3D2C4F;
+  }
+  
+  .home-title span {
+    display: block;
+    color: #a78bfa;
+  }
+  
+  .home-heading p {
+    color: #212121;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+  }
 
 /* ---------- Design tokens ---------- */
 :root {

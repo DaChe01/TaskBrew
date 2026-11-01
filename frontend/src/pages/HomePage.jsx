@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom';
 
+
 export default function HomePage() {
   return (
     <main className="home-page">
-      <h1 className="home-title">Welcome to SPCL Task Manager 🚀</h1>
-      <p className="home-subtext">
-        Stay organized, manage your tasks, and build consistency. Never miss a deadline: high
-        priority tasks get email reminders days ahead.
-      </p>
+      <div className="home-heading">
+        <span className="brand-label"><h1><em>TheBrewingTerminal</em></h1></span>
+        <h2 className="home-title">
+          Your Tasks. Your Momentum.
+        </h2>
+        <p>Plan better. Stay focused. Get things done.</p>
+        </div>
 
       <div className="home-buttons">
         <Link to="/login" className="home-button home-button-login">
@@ -18,7 +21,9 @@ export default function HomePage() {
         </Link>
       </div>
 
-      <footer className="home-footer">© 2025 SPCL Task Manager. Build, organize, repeat.</footer>
+      <footer className="home-footer">
+        © {new Date().getFullYear()} TheBrewingTerminal Task Manager. Build, organize, repeat.
+      </footer>
     </main>
   );
 }
