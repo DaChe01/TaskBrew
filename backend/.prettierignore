@@ -1,0 +1,5 @@
+node_modules
+package-lock.json
+coverage
+# historical migration: kept byte-for-byte as originally applied
+migrations/1792408845475_initial-schema.js
