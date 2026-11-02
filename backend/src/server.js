@@ -5,12 +5,6 @@ import { createMailer } from './reminders/mailer.js';
 import { startReminderScheduler } from './reminders/scheduler.js';
 import { logger } from './utils/logger.js';
 
-app.get('/', (req, res) => {
-  res.status(200).json({
-    success: true,
-    message: 'TaskBrew API is running',
-  });
-});
 
 async function main() {
   loadDotenv();
